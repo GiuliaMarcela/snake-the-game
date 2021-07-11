@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <script defer src="./index.js"></script>
+
+    <title>Snake Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="instructions">
+        <div class="content">
+          <h1 class="title">Snake - The game</h1>
+          <p>
+            Snake é um jogo que ficou conhecido por diversas versões cuja versão
+            inicial começou com o jogo Blockade de 1976, sendo feitas várias
+            imitações em vídeo-games e computadores. No fim dos anos 90 foi
+            popularizado em celulares da Nokia que vinham com o jogo já incluso.
+          </p>
+          <h2 class="title">Informações</h2>
+          <hr />
+          <p>
+            <b>Movimentos:</b><br /><br />W ou &uarr; - para mover para cima<br />S
+            ou &darr; - para mover para baixo<br />A ou &larr; - para mover para
+            esquerda<br />D ou &rarr; - para mover para direita
+          </p>
+          <p>
+            <b>Regra:</b> Se a cabeça da cobra atingir seu próprio corpo, o jogo
+            acaba.<br />Mas não se preocupe, você tem a chance de recomeçar.
+          </p>
+          <p>
+            <b>Atenção:</b> Quando o alerta aparecer na tela, clique em
+            <b>OK</b> e <b>ESPERE por 3 segundos</b> a página irá recarregar.
+          </p>
+          <h2 class="title">Contato</h2>
+          <hr />
+          <div class="contact">
+            <a href="mailto:giuliamendes67@gmail.com"
+              ><span>Envie-me um email!</span></a
+            >
+            <a href="http://www.github.com/GiuliaMarcela"
+              ><span>Perfil do Github</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="game-container">
+        <div class="border-snake">
+          <canvas id="canvas" class="snake" width="512" height="512"></canvas>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

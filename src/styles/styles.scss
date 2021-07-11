@@ -1,0 +1,58 @@
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
+
+  font-family: monospace;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 30% auto;
+  height: 100vh;
+  width: 100%;
+
+  @media screen and (max-width: 800px) {
+    display: block;
+  }
+
+  .instructions {
+    background-color: #2d2d2d;
+    color: #bbcde5;
+
+    .content {
+      padding: 2rem;
+
+      .title {
+        color: #639fab;
+        text-transform: uppercase;
+      }
+
+      .contact {
+        display: flex;
+        flex-direction: column;
+
+        a {
+          color: #ffffff;
+          font-weight: bold;
+          margin: .8rem 0;
+          text-decoration: none;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+  .game-container {
+    align-items: center;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+
+    .border-snake {
+      border: 10px solid #2d2d2d;
+    }
+  }
+}

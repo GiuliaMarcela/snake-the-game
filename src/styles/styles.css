@@ -1,0 +1,74 @@
+html,
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
+  font-family: monospace;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% auto;
+      grid-template-columns: 30% auto;
+  height: 100vh;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    display: block;
+  }
+}
+
+.container .instructions {
+  background-color: #2d2d2d;
+  color: #bbcde5;
+}
+
+.container .instructions .content {
+  padding: 2rem;
+}
+
+.container .instructions .content .title {
+  color: #639fab;
+  text-transform: uppercase;
+}
+
+.container .instructions .content .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .instructions .content .contact a {
+  color: #ffffff;
+  font-weight: bold;
+  margin: .8rem 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.container .game-container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: tomato;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .game-container .border-snake {
+  border: 10px solid #2d2d2d;
+}
+/*# sourceMappingURL=styles.css.map */
