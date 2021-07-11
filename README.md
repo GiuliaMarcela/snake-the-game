@@ -28,5 +28,4 @@ Página principal do jogo
  - Javascript
  
 ### 🔗 Referências
-Frontend básico - Intermediário 
-[Digital Innovation One](https://web.digitalinnovation.one/): Recriando a página inicial do Instagram
+Frontend básico - Intermediário -> [Digital Innovation One](https://web.digitalinnovation.one/): Recriando o jogo da cobrinha com Javascript
